@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Parsifal. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 open class CaterpillarLayoutConfiguration:LayoutConfiguration {
     

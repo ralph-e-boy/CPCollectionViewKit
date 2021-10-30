@@ -6,6 +6,7 @@
 //  Copyright © 2017年 Parsifal. All rights reserved.
 //
 
+
 import UIKit
 
 open class CircleLayoutConfiguration:LayoutConfiguration {

@@ -43,10 +43,12 @@ open class TransitionManager {
 
 extension TransitionManager {
     
-    func startTimer() {
+  func startTimer() {
         startTime = CACurrentMediaTime()
         timer = CADisplayLink(target: self, selector: #selector(updateTransitionProgress))
-        timer.preferredFramesPerSecond = 60
+    if #available(iOS 10.0, *) {
+      timer.preferredFramesPerSecond = 60
+    }
         timer.add(to: RunLoop.current, forMode: RunLoop.Mode.common)
     }
     

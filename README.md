@@ -1,5 +1,11 @@
 # CPCollectionViewKit
 
+
+
+WIP SPM VERSION
+
+--
+
 #### CollectionViewTransitionLayout [Readme](https://github.com/ParsifalC/CPCollectionViewKit/blob/master/Demos/CPCollectionViewTransitionDemo/README.md)
 <table>
 <tr>
