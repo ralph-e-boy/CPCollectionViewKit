@@ -234,55 +234,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		90232C451E54911A004EEA5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
 		90232C461E54911A004EEA5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,20 +276,6 @@
 			};
 			name = Release;
 		};
-		90232C481E54911A004EEA5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C842088F0F4B9B47C035CE8 /* Pods-CPCollectionViewTimeMachineLayoutDemo.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QPY54Z9HV5;
-				INFOPLIST_FILE = CPCollectionViewTimeMachineLayoutDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Parsifal.CPCollectionViewTimeMachineLayoutDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
 		90232C491E54911A004EEA5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D7882A4A9A1BD7BE8D4C087 /* Pods-CPCollectionViewTimeMachineLayoutDemo.release.xcconfig */;
@@ -359,7 +296,6 @@
 		90232C301E54911A004EEA5B /* Build configuration list for PBXProject "CPCollectionViewTimeMachineLayoutDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90232C451E54911A004EEA5B /* Debug */,
 				90232C461E54911A004EEA5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -368,7 +304,6 @@
 		90232C471E54911A004EEA5B /* Build configuration list for PBXNativeTarget "CPCollectionViewTimeMachineLayoutDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90232C481E54911A004EEA5B /* Debug */,
 				90232C491E54911A004EEA5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

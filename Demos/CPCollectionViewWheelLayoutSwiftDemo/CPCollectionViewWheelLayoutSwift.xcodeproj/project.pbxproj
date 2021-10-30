@@ -11,14 +11,12 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8E2B47DED3DEDFB8AE688D3D /* Pods_CPCollectionViewWheelLayoutSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF890C6BA149E263E1127D0 /* Pods_CPCollectionViewWheelLayoutSwift_Tests.framework */; };
 		90445D311E3342840092EF88 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 90445D2F1E3342840092EF88 /* LICENSE */; };
 		90445D321E3342840092EF88 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 90445D301E3342840092EF88 /* README.md */; };
 		90F65AA41E23B354000940B9 /* CPColletionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F65AA11E23B354000940B9 /* CPColletionViewCell.swift */; };
 		90F65AA51E23B354000940B9 /* CPTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F65AA21E23B354000940B9 /* CPTableViewController.swift */; };
 		90F65AA61E23B354000940B9 /* CPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F65AA31E23B354000940B9 /* CPViewController.swift */; };
 		90F65AA91E23B8B9000940B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F65AA71E23B8B9000940B9 /* LaunchScreen.storyboard */; };
-		F8B523F574712BC8B57CCEAA /* Pods_CPCollectionViewWheelLayoutSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A321EFFE3059801F33D6634C /* Pods_CPCollectionViewWheelLayoutSwift_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +50,9 @@
 		A321EFFE3059801F33D6634C /* Pods_CPCollectionViewWheelLayoutSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPCollectionViewWheelLayoutSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF890C6BA149E263E1127D0 /* Pods_CPCollectionViewWheelLayoutSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPCollectionViewWheelLayoutSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB453FCDF05B5BC1257AC48 /* Pods-CPCollectionViewWheelLayoutSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewWheelLayoutSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewWheelLayoutSwift_Tests/Pods-CPCollectionViewWheelLayoutSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D71ECB3C272DBB8F00A580B6 /* CPCollectionViewKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CPCollectionViewKit; path = ../..; sourceTree = "<group>"; };
+		D71ECB43272DBCBD00A580B6 /* CPCollectionViewKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CPCollectionViewKit; path = ../..; sourceTree = "<group>"; };
+		D71ECB44272DBCD800A580B6 /* CPCollectionViewKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CPCollectionViewKit; path = ../..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B523F574712BC8B57CCEAA /* Pods_CPCollectionViewWheelLayoutSwift_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2B47DED3DEDFB8AE688D3D /* Pods_CPCollectionViewWheelLayoutSwift_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +76,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				D71ECB3B272DBB8F00A580B6 /* Packages */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CPCollectionViewWheelLayoutSwift */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -165,6 +165,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D71ECB3B272DBB8F00A580B6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D71ECB3C272DBB8F00A580B6 /* CPCollectionViewKit */,
+				D71ECB43272DBCBD00A580B6 /* CPCollectionViewKit */,
+				D71ECB44272DBCD800A580B6 /* CPCollectionViewKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,6 +247,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

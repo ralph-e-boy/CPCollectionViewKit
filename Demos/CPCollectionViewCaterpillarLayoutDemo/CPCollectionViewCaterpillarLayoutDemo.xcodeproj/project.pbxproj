@@ -16,6 +16,37 @@
 		FE0548B2B28ED6585CD137D6 /* Pods_CPCollectionViewCaterpillarLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8077C8CF683DDAF24949733 /* Pods_CPCollectionViewCaterpillarLayoutDemo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D71ECB16272DB95600A580B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90445CD61E3314C30092EF88;
+			remoteInfo = CPCollectionViewCircleLayoutDemo;
+		};
+		D71ECB1C272DB95900A580B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71ECB18272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90BC8FB31E57265F00C49A21;
+			remoteInfo = CPCollectionViewStageLayoutDemo;
+		};
+		D71ECB24272DB97500A580B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71ECB20272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90445CD61E3314C30092EF88;
+			remoteInfo = CPCollectionViewCircleLayoutDemo;
+		};
+		D71ECB34272DB9A200A580B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71ECB2E272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90445CD61E3314C30092EF88;
+			remoteInfo = CPCollectionViewCircleLayoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3C327BD0570D5D30B66E289A /* Pods-CPCollectionViewCaterpillarLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewCaterpillarLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewCaterpillarLayoutDemo/Pods-CPCollectionViewCaterpillarLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8C183F000463A83E9B651394 /* Pods-CPCollectionViewCaterpillarLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewCaterpillarLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewCaterpillarLayoutDemo/Pods-CPCollectionViewCaterpillarLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -28,6 +59,11 @@
 		90445D251E333DCC0092EF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90445D2B1E3341970092EF88 /* CPColletionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPColletionViewCell.swift; sourceTree = "<group>"; };
 		B8077C8CF683DDAF24949733 /* Pods_CPCollectionViewCaterpillarLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPCollectionViewCaterpillarLayoutDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewCircleLayoutDemo.xcodeproj; path = ../CPCollectionViewCircleLayoutDemo/CPCollectionViewCircleLayoutDemo.xcodeproj; sourceTree = "<group>"; };
+		D71ECB18272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewStageLayoutDemo.xcodeproj; path = ../CPCollectionViewStageLayoutDemo/CPCollectionViewStageLayoutDemo.xcodeproj; sourceTree = "<group>"; };
+		D71ECB20272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewCircleLayoutDemo.xcodeproj; path = ../CPCollectionViewCircleLayoutDemo/CPCollectionViewCircleLayoutDemo.xcodeproj; sourceTree = "<group>"; };
+		D71ECB2E272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewCircleLayoutDemo.xcodeproj; path = ../CPCollectionViewCircleLayoutDemo/CPCollectionViewCircleLayoutDemo.xcodeproj; sourceTree = "<group>"; };
+		D71ECB3E272DBC9D00A580B6 /* CPCollectionViewKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CPCollectionViewKit; path = ../..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +89,11 @@
 		90445D0D1E333DCC0092EF88 = {
 			isa = PBXGroup;
 			children = (
+				D71ECB3D272DBC9D00A580B6 /* Packages */,
+				D71ECB20272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */,
+				D71ECB2E272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */,
+				D71ECB18272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.xcodeproj */,
+				D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */,
 				90445D181E333DCC0092EF88 /* CPCollectionViewCaterpillarLayoutDemo */,
 				90445D171E333DCC0092EF88 /* Products */,
 				F4B3BF507430088DB8319AF6 /* Pods */,
@@ -80,6 +121,46 @@
 				90445D251E333DCC0092EF88 /* Info.plist */,
 			);
 			path = CPCollectionViewCaterpillarLayoutDemo;
+			sourceTree = "<group>";
+		};
+		D71ECB13272DB95600A580B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71ECB17272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71ECB19272DB95900A580B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71ECB1D272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71ECB21272DB97500A580B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71ECB25272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71ECB2F272DB9A200A580B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71ECB35272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71ECB3D272DBC9D00A580B6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D71ECB3E272DBC9D00A580B6 /* CPCollectionViewKit */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 		F4B3BF507430088DB8319AF6 /* Pods */ = {
@@ -136,18 +217,68 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
 			mainGroup = 90445D0D1E333DCC0092EF88;
 			productRefGroup = 90445D171E333DCC0092EF88 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D71ECB21272DB97500A580B6 /* Products */;
+					ProjectRef = D71ECB20272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = D71ECB13272DB95600A580B6 /* Products */;
+					ProjectRef = D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = D71ECB2F272DB9A200A580B6 /* Products */;
+					ProjectRef = D71ECB2E272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = D71ECB19272DB95900A580B6 /* Products */;
+					ProjectRef = D71ECB18272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				90445D151E333DCC0092EF88 /* CPCollectionViewCaterpillarLayoutDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D71ECB17272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CPCollectionViewCircleLayoutDemo.app;
+			remoteRef = D71ECB16272DB95600A580B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D71ECB1D272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CPCollectionViewStageLayoutDemo.app;
+			remoteRef = D71ECB1C272DB95900A580B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D71ECB25272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CPCollectionViewCircleLayoutDemo.app;
+			remoteRef = D71ECB24272DB97500A580B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D71ECB35272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CPCollectionViewCircleLayoutDemo.app;
+			remoteRef = D71ECB34272DB9A200A580B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		90445D141E333DCC0092EF88 /* Resources */ = {
