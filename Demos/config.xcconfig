@@ -1,0 +1,14 @@
+
+
+
+
+//:configuration = Debug
+SWIFT_VERSION = 5.0
+
+//:configuration = Release
+SWIFT_VERSION = 5.0
+
+//:completeSettings = some
+SWIFT_VERSION = 5.0
+
+
