@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		901AA5831E5193E800B12889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901AA5821E5193E800B12889 /* Assets.xcassets */; };
 		901AA5861E5193E800B12889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901AA5841E5193E800B12889 /* LaunchScreen.storyboard */; };
 		901AA58E1E51950000B12889 /* CPCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901AA58D1E51950000B12889 /* CPCardCollectionViewCell.swift */; };
+		D72A60B8272DC80000EE99C7 /* CPCollectionViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = D72A60B7272DC80000EE99C7 /* CPCollectionViewKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		901AA5851E5193E800B12889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		901AA5871E5193E800B12889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		901AA58D1E51950000B12889 /* CPCardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		D72A60B9272DC80F00EE99C7 /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = config.xcconfig; path = /Users/ralphseaman/code/CPCollectionViewKit/Demos/CPCollectionViewCardLayoutDemo/CPCollectionViewCardLayoutDemo/config.xcconfig; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72A60B8272DC80000EE99C7 /* CPCollectionViewKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 		901AA57A1E5193E800B12889 /* CPCollectionViewCardLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D72A60B9272DC80F00EE99C7 /* config.xcconfig */,
 				901AA57B1E5193E800B12889 /* AppDelegate.swift */,
 				901AA57D1E5193E800B12889 /* ViewController.swift */,
 				901AA58D1E51950000B12889 /* CPCardCollectionViewCell.swift */,
@@ -82,17 +86,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 901AA58A1E5193E800B12889 /* Build configuration list for PBXNativeTarget "CPCollectionViewCardLayoutDemo" */;
 			buildPhases = (
-				8B87705D9D5F9552FA2F31AE /* [CP] Check Pods Manifest.lock */,
 				901AA5741E5193E800B12889 /* Sources */,
 				901AA5751E5193E800B12889 /* Frameworks */,
 				901AA5761E5193E800B12889 /* Resources */,
-				70D5AAE3A363FFBE4C553151 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CPCollectionViewCardLayoutDemo;
+			packageProductDependencies = (
+				D72A60B7272DC80000EE99C7 /* CPCollectionViewKit */,
+			);
 			productName = CPCollectionViewCardLayoutDemo;
 			productReference = 901AA5781E5193E800B12889 /* CPCollectionViewCardLayoutDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -146,45 +151,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		70D5AAE3A363FFBE4C553151 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPCollectionViewCardLayoutDemo/Pods-CPCollectionViewCardLayoutDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CPCollectionViewKit/CPCollectionViewKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CPCollectionViewKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPCollectionViewCardLayoutDemo/Pods-CPCollectionViewCardLayoutDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B87705D9D5F9552FA2F31AE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CPCollectionViewCardLayoutDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		901AA5741E5193E800B12889 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -220,6 +186,7 @@
 /* Begin XCBuildConfiguration section */
 		901AA5881E5193E800B12889 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60B9272DC80F00EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -258,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -269,6 +236,7 @@
 		};
 		901AA5891E5193E800B12889 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60B9272DC80F00EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -301,37 +269,42 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		901AA58B1E5193E800B12889 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60B9272DC80F00EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QPY54Z9HV5;
 				INFOPLIST_FILE = CPCollectionViewCardLayoutDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Parsifal.CPCollectionViewCardLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		901AA58C1E5193E800B12889 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60B9272DC80F00EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QPY54Z9HV5;
 				INFOPLIST_FILE = CPCollectionViewCardLayoutDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Parsifal.CPCollectionViewCardLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -357,6 +330,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D72A60B7272DC80000EE99C7 /* CPCollectionViewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CPCollectionViewKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 901AA5701E5193E800B12889 /* Project object */;
 }
