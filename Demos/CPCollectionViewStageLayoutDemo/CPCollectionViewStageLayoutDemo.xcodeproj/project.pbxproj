@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		781AFF6D79B621B3C4A6E11C /* Pods_CPCollectionViewStageLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A4ABBFC4B4E84C153BD07E /* Pods_CPCollectionViewStageLayoutDemo.framework */; };
 		90BC8FB71E57265F00C49A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC8FB61E57265F00C49A21 /* AppDelegate.swift */; };
 		90BC8FB91E57265F00C49A21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC8FB81E57265F00C49A21 /* ViewController.swift */; };
 		90BC8FBC1E57265F00C49A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BC8FBA1E57265F00C49A21 /* Main.storyboard */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		613F4C206A884D8462360ACB /* Pods-CPCollectionViewStageLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewStageLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewStageLayoutDemo/Pods-CPCollectionViewStageLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		90BC8FB31E57265F00C49A21 /* CPCollectionViewStageLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPCollectionViewStageLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BC8FB61E57265F00C49A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90BC8FB81E57265F00C49A21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +24,6 @@
 		90BC8FC01E57265F00C49A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90BC8FC21E57265F00C49A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90BC8FCA1E572C6200C49A21 /* CPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCollectionViewCell.swift; sourceTree = "<group>"; };
-		E81DA720DABA7D07A66FF352 /* Pods-CPCollectionViewStageLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewStageLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewStageLayoutDemo/Pods-CPCollectionViewStageLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
-		F3A4ABBFC4B4E84C153BD07E /* Pods_CPCollectionViewStageLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPCollectionViewStageLayoutDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781AFF6D79B621B3C4A6E11C /* Pods_CPCollectionViewStageLayoutDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +42,6 @@
 			children = (
 				90BC8FB51E57265F00C49A21 /* CPCollectionViewStageLayoutDemo */,
 				90BC8FB41E57265F00C49A21 /* Products */,
-				EC0F950CBE72968D75C49C52 /* Pods */,
 				B4D464D2E452CE734D243EDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -77,18 +71,8 @@
 		B4D464D2E452CE734D243EDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F3A4ABBFC4B4E84C153BD07E /* Pods_CPCollectionViewStageLayoutDemo.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EC0F950CBE72968D75C49C52 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				613F4C206A884D8462360ACB /* Pods-CPCollectionViewStageLayoutDemo.debug.xcconfig */,
-				E81DA720DABA7D07A66FF352 /* Pods-CPCollectionViewStageLayoutDemo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +120,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,7 +321,6 @@
 		};
 		90BC8FC61E57265F00C49A21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 613F4C206A884D8462360ACB /* Pods-CPCollectionViewStageLayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;
@@ -350,7 +334,6 @@
 		};
 		90BC8FC71E57265F00C49A21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E81DA720DABA7D07A66FF352 /* Pods-CPCollectionViewStageLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;

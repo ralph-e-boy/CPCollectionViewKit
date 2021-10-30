@@ -13,13 +13,9 @@
 		90232C401E54911A004EEA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90232C3F1E54911A004EEA5B /* Assets.xcassets */; };
 		90232C431E54911A004EEA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90232C411E54911A004EEA5B /* LaunchScreen.storyboard */; };
 		90232C4B1E549269004EEA5B /* CPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90232C4A1E549269004EEA5B /* CPCollectionViewCell.swift */; };
-		A2BF20CF699BFFEDB36A067D /* Pods_CPCollectionViewTimeMachineLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B48646CC7A51575242C9F2C /* Pods_CPCollectionViewTimeMachineLayoutDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C842088F0F4B9B47C035CE8 /* Pods-CPCollectionViewTimeMachineLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewTimeMachineLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewTimeMachineLayoutDemo/Pods-CPCollectionViewTimeMachineLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4D7882A4A9A1BD7BE8D4C087 /* Pods-CPCollectionViewTimeMachineLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewTimeMachineLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewTimeMachineLayoutDemo/Pods-CPCollectionViewTimeMachineLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
-		8B48646CC7A51575242C9F2C /* Pods_CPCollectionViewTimeMachineLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPCollectionViewTimeMachineLayoutDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90232C351E54911A004EEA5B /* CPCollectionViewTimeMachineLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPCollectionViewTimeMachineLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90232C381E54911A004EEA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90232C3A1E54911A004EEA5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BF20CF699BFFEDB36A067D /* Pods_CPCollectionViewTimeMachineLayoutDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +40,6 @@
 		646974CD94827D92DFACF024 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B48646CC7A51575242C9F2C /* Pods_CPCollectionViewTimeMachineLayoutDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -55,7 +49,6 @@
 			children = (
 				90232C371E54911A004EEA5B /* CPCollectionViewTimeMachineLayoutDemo */,
 				90232C361E54911A004EEA5B /* Products */,
-				BA657CC27604F9ED7AE8D3C7 /* Pods */,
 				646974CD94827D92DFACF024 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -80,15 +73,6 @@
 				90232C441E54911A004EEA5B /* Info.plist */,
 			);
 			path = CPCollectionViewTimeMachineLayoutDemo;
-			sourceTree = "<group>";
-		};
-		BA657CC27604F9ED7AE8D3C7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4C842088F0F4B9B47C035CE8 /* Pods-CPCollectionViewTimeMachineLayoutDemo.debug.xcconfig */,
-				4D7882A4A9A1BD7BE8D4C087 /* Pods-CPCollectionViewTimeMachineLayoutDemo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +262,6 @@
 		};
 		90232C491E54911A004EEA5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D7882A4A9A1BD7BE8D4C087 /* Pods-CPCollectionViewTimeMachineLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;

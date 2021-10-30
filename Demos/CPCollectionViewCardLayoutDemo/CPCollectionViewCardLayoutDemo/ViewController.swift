@@ -43,8 +43,8 @@ class ViewController: UIViewController {
         fadeFactorSlider.value = 0.3
         
         rotateFactorSlider.minimumValue = 0
-        rotateFactorSlider.maximumValue = Float(M_PI*2.0)
-        rotateFactorSlider.value = Float(M_PI_4)
+        rotateFactorSlider.maximumValue = Float(Double.pi * 2.0)
+        rotateFactorSlider.value = Float(Double.pi / 4)
         
         scaleFactorXSlider.minimumValue = 0
         scaleFactorXSlider.maximumValue = 1.0
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         offsetYSlider.maximumValue = 100
         offsetYSlider.value = 0
         
-        layout = collectionView.collectionViewLayout as! CollectionViewCardLayout
+      layout = collectionView.collectionViewLayout as? CollectionViewCardLayout
         layout.updateAnimationStyle = .custom
         configuration = layout.configuration
         configuration.stopAtItemBoundary = stopAtBoundarySwitch.isOn

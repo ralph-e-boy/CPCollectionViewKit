@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2877DAECEAFBF909B162C944 /* Pods_CPCollectionViewTransitionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105BFFB44FED70F79A2058BB /* Pods_CPCollectionViewTransitionDemo.framework */; };
 		9021EF4F1E6531520075C7D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EF4E1E6531520075C7D3 /* AppDelegate.swift */; };
 		9021EF511E6531520075C7D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EF501E6531520075C7D3 /* ViewController.swift */; };
 		9021EF541E6531520075C7D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9021EF521E6531520075C7D3 /* Main.storyboard */; };
@@ -18,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		105BFFB44FED70F79A2058BB /* Pods_CPCollectionViewTransitionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPCollectionViewTransitionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D59C719382DD07ADF43CDC6 /* Pods-CPCollectionViewTransitionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewTransitionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewTransitionDemo/Pods-CPCollectionViewTransitionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9021EF4B1E6531520075C7D3 /* CPCollectionViewTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPCollectionViewTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9021EF4E1E6531520075C7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9021EF501E6531520075C7D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +26,6 @@
 		9021EF5A1E6531520075C7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		909BA92F1E6537AD00BFE722 /* CPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPViewController.swift; sourceTree = "<group>"; };
 		909BA9311E65389A00BFE722 /* CPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCollectionViewCell.swift; sourceTree = "<group>"; };
-		A3E0656D352EEDC3C39D018E /* Pods-CPCollectionViewTransitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewTransitionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewTransitionDemo/Pods-CPCollectionViewTransitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,26 +33,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2877DAECEAFBF909B162C944 /* Pods_CPCollectionViewTransitionDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		816DC7648A831CF65DA0FDAC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A3E0656D352EEDC3C39D018E /* Pods-CPCollectionViewTransitionDemo.debug.xcconfig */,
-				1D59C719382DD07ADF43CDC6 /* Pods-CPCollectionViewTransitionDemo.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		8237256B4D64A9D024B6EC05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				105BFFB44FED70F79A2058BB /* Pods_CPCollectionViewTransitionDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -66,7 +51,6 @@
 			children = (
 				9021EF4D1E6531520075C7D3 /* CPCollectionViewTransitionDemo */,
 				9021EF4C1E6531520075C7D3 /* Products */,
-				816DC7648A831CF65DA0FDAC /* Pods */,
 				8237256B4D64A9D024B6EC05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -262,7 +246,6 @@
 		};
 		9021EF5E1E6531520075C7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3E0656D352EEDC3C39D018E /* Pods-CPCollectionViewTransitionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;
@@ -276,7 +259,6 @@
 		};
 		9021EF5F1E6531520075C7D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D59C719382DD07ADF43CDC6 /* Pods-CPCollectionViewTransitionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;

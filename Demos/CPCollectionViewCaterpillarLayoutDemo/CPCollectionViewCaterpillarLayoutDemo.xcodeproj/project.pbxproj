@@ -13,7 +13,6 @@
 		90445D211E333DCC0092EF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90445D201E333DCC0092EF88 /* Assets.xcassets */; };
 		90445D241E333DCC0092EF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90445D221E333DCC0092EF88 /* LaunchScreen.storyboard */; };
 		90445D2C1E3341970092EF88 /* CPColletionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90445D2B1E3341970092EF88 /* CPColletionViewCell.swift */; };
-		FE0548B2B28ED6585CD137D6 /* Pods_CPCollectionViewCaterpillarLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8077C8CF683DDAF24949733 /* Pods_CPCollectionViewCaterpillarLayoutDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C327BD0570D5D30B66E289A /* Pods-CPCollectionViewCaterpillarLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewCaterpillarLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewCaterpillarLayoutDemo/Pods-CPCollectionViewCaterpillarLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		8C183F000463A83E9B651394 /* Pods-CPCollectionViewCaterpillarLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCollectionViewCaterpillarLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPCollectionViewCaterpillarLayoutDemo/Pods-CPCollectionViewCaterpillarLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
 		90445D161E333DCC0092EF88 /* CPCollectionViewCaterpillarLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPCollectionViewCaterpillarLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90445D191E333DCC0092EF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90445D1B1E333DCC0092EF88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +55,6 @@
 		90445D231E333DCC0092EF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90445D251E333DCC0092EF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90445D2B1E3341970092EF88 /* CPColletionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPColletionViewCell.swift; sourceTree = "<group>"; };
-		B8077C8CF683DDAF24949733 /* Pods_CPCollectionViewCaterpillarLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPCollectionViewCaterpillarLayoutDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewCircleLayoutDemo.xcodeproj; path = ../CPCollectionViewCircleLayoutDemo/CPCollectionViewCircleLayoutDemo.xcodeproj; sourceTree = "<group>"; };
 		D71ECB18272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewStageLayoutDemo.xcodeproj; path = ../CPCollectionViewStageLayoutDemo/CPCollectionViewStageLayoutDemo.xcodeproj; sourceTree = "<group>"; };
 		D71ECB20272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewCircleLayoutDemo.xcodeproj; path = ../CPCollectionViewCircleLayoutDemo/CPCollectionViewCircleLayoutDemo.xcodeproj; sourceTree = "<group>"; };
@@ -71,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0548B2B28ED6585CD137D6 /* Pods_CPCollectionViewCaterpillarLayoutDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +76,6 @@
 		246136FF135C6C440EC78F24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B8077C8CF683DDAF24949733 /* Pods_CPCollectionViewCaterpillarLayoutDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,7 +90,6 @@
 				D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */,
 				90445D181E333DCC0092EF88 /* CPCollectionViewCaterpillarLayoutDemo */,
 				90445D171E333DCC0092EF88 /* Products */,
-				F4B3BF507430088DB8319AF6 /* Pods */,
 				246136FF135C6C440EC78F24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -161,15 +154,6 @@
 				D71ECB3E272DBC9D00A580B6 /* CPCollectionViewKit */,
 			);
 			name = Packages;
-			sourceTree = "<group>";
-		};
-		F4B3BF507430088DB8319AF6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3C327BD0570D5D30B66E289A /* Pods-CPCollectionViewCaterpillarLayoutDemo.debug.xcconfig */,
-				8C183F000463A83E9B651394 /* Pods-CPCollectionViewCaterpillarLayoutDemo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,7 +451,6 @@
 		};
 		90445D291E333DCC0092EF88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C327BD0570D5D30B66E289A /* Pods-CPCollectionViewCaterpillarLayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;
@@ -481,7 +464,6 @@
 		};
 		90445D2A1E333DCC0092EF88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C183F000463A83E9B651394 /* Pods-CPCollectionViewCaterpillarLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;
