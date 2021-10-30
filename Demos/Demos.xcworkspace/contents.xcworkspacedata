@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CPCollectionViewKit">
+   </FileRef>
+   <FileRef
+      location = "group:CPCollectionViewCardLayoutDemo/CPCollectionViewCardLayoutDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CPCollectionViewCardLayoutDemo/CPCollectionViewCardLayoutDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CPCollectionViewTransitionDemo/CPCollectionViewTransitionDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CPCollectionViewTimeMachineLayoutDemo/CPCollectionViewTimeMachineLayoutDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CPCollectionViewCaterpillarLayoutDemo/CPCollectionViewCaterpillarLayoutDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CPCollectionViewStageLayoutDemo/CPCollectionViewStageLayoutDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CPCollectionViewCircleLayoutDemo/CPCollectionViewCircleLayoutDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CPCollectionViewWheelLayoutSwiftDemo/CPCollectionViewWheelLayoutSwift.xcodeproj">
+   </FileRef>
+</Workspace>
