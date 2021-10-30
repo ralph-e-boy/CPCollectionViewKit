@@ -110,7 +110,7 @@ extension CollectionViewStageLayout: CollectionViewLayoutProtocol {
         if itemOffset > -1 && itemOffset <= 0 {
             if configuration.leaveStageAnimationStyle == .outOfBoundary
                 || configuration.leaveStageAnimationStyle == .blend{
-                centerX = collectionView.contentOffset.x + (fabs(itemOffset) + 0.5) * width
+              centerX = collectionView.contentOffset.x + (abs(itemOffset) + 0.5) * width
             } else {
                 centerX = collectionView.contentOffset.x + 0.5 * width
             }
@@ -146,7 +146,7 @@ extension CollectionViewStageLayout: CollectionViewLayoutProtocol {
             centerY = height - cellHeight / 2
         }
         
-        let rotateFactor = fabs(itemOffset * 100).remainder(dividingBy: 100) / 100
+      let rotateFactor = abs(itemOffset * 100).remainder(dividingBy: 100) / 100
         
         switch configuration.moveAnimationStyle {
         case .waltz where itemOffset > 0:

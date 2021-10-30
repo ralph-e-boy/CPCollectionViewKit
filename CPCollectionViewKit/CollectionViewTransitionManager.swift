@@ -25,13 +25,13 @@ open class TransitionManager {
     }
 
     open func startInteractiveTransition(completion: @escaping () -> Void) {
-        UIApplication.shared.beginIgnoringInteractionEvents()
+//        UIApplication.shared.beginIgnoringInteractionEvents()
         
         transitionLayout = collectionView.startInteractiveTransition(to: toLayout) { success, finish in
             if success && finish {
                 self.collectionView.contentOffset = self.toContentOffset
                 self.collectionView.reloadData()
-                UIApplication.shared.endIgnoringInteractionEvents()
+//                UIApplication.shared.endIgnoringInteractionEvents()
                 completion()
             }
             } as? CollectionViewTransitionLayout
@@ -46,7 +46,7 @@ extension TransitionManager {
     func startTimer() {
         startTime = CACurrentMediaTime()
         timer = CADisplayLink(target: self, selector: #selector(updateTransitionProgress))
-        timer.frameInterval = 1
+        timer.preferredFramesPerSecond = 60
         timer.add(to: RunLoop.current, forMode: RunLoop.Mode.common)
     }
     

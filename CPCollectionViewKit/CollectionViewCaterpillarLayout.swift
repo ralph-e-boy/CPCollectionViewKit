@@ -85,7 +85,7 @@ open class CollectionViewCaterpillarLayout:CollectionViewLayout {
                 itemOffset += floatCellCount
             }
             // y = (1-s)x+s
-            let scaleFactor:CGFloat = (1-topCellSizeScale)*fabs(itemOffset)+topCellSizeScale
+          let scaleFactor:CGFloat = (1-topCellSizeScale)*abs(itemOffset)+topCellSizeScale
             attributes.size = CGSize(width:cellSize.width*scaleFactor,
                                      height:cellSize.height*scaleFactor)
 
@@ -95,7 +95,7 @@ open class CollectionViewCaterpillarLayout:CollectionViewLayout {
             let x = sin(radian)*(cellSpacing/2)+width/2
             let y = height/2+contentOffsetY-cos(radian)*(cellSpacing/2)
             attributes.center = CGPoint(x:x, y:y)
-        } else if fabs(itemOffset)<visibleCount ||
+        } else if abs(itemOffset)<visibleCount ||
                   itemOffset>0 && (floatCellCount-itemOffset<visibleCount) ||
                   itemOffset<0 && (floatCellCount+itemOffset<visibleCount){
             if itemOffset>0 && (floatCellCount-itemOffset<visibleCount) {
@@ -107,7 +107,7 @@ open class CollectionViewCaterpillarLayout:CollectionViewLayout {
             }
             // vetical linear
             let x = itemOffset>0 ? (width/2+cellSpacing/2) : (width/2-cellSpacing/2)
-            let y = height/2+contentOffsetY+(fabs(itemOffset)-1)*cellSpacing/2
+          let y = height/2+contentOffsetY+(abs(itemOffset)-1)*cellSpacing/2
             attributes.center = CGPoint(x:x, y:y)
         } else {
             attributes.center = CGPoint(x:-cellWidth,
@@ -119,7 +119,7 @@ open class CollectionViewCaterpillarLayout:CollectionViewLayout {
                                     y:attributes.center.y+configuration.offsetY)
         
         if configuration.fadeAway {
-            attributes.alpha = 1-fabs(itemOffset)/visibleCount
+          attributes.alpha = 1-abs(itemOffset)/visibleCount
         }
 //        print("index:\(index)topItemIndex:\(topItemIndex) itemOffset:\(itemOffset) isHidden:\(attributes.isHidden)")
         return attributes

@@ -89,10 +89,10 @@ open class CollectionViewCardLayout: CollectionViewLayout {
         
         attributes.center = CGPoint(x: centerX+configuration.offsetX, y: centerY+configuration.offsetY)
         
-        attributes.alpha = 1-configuration.fadeFactor*fabs(itemOffset)
+      attributes.alpha = 1-configuration.fadeFactor*abs(itemOffset)
 
-        let scaleFactorX = fabs(1-configuration.scaleFactorX*fabs(itemOffset))
-        let scaleFactorY = fabs(1-configuration.scaleFactorY*fabs(itemOffset))
+      let scaleFactorX = abs(1-configuration.scaleFactorX*abs(itemOffset))
+      let scaleFactorY = abs(1-configuration.scaleFactorY*abs(itemOffset))
         let rotateFactor = configuration.rotateFactor*itemOffset
         
         var transform3D = CATransform3DIdentity
