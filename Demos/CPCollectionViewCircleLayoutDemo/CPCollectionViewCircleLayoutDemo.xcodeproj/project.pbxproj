@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		90445CE11E3314C30092EF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90445CE01E3314C30092EF88 /* Assets.xcassets */; };
 		90445CE41E3314C30092EF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90445CE21E3314C30092EF88 /* LaunchScreen.storyboard */; };
 		90445CEC1E3325DD0092EF88 /* CPColletionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90445CEB1E3325DD0092EF88 /* CPColletionViewCell.swift */; };
+		D72A60C8272DCF6100EE99C7 /* CPCollectionViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = D72A60C7272DCF6100EE99C7 /* CPCollectionViewKit */; };
+		D72A60CA272DCFA200EE99C7 /* config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D72A60C9272DCFA200EE99C7 /* config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		90445CE31E3314C30092EF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90445CE51E3314C30092EF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90445CEB1E3325DD0092EF88 /* CPColletionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPColletionViewCell.swift; sourceTree = "<group>"; };
+		D72A60C9272DCFA200EE99C7 /* config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = config.xcconfig; path = ../Config/config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72A60C8272DCF6100EE99C7 /* CPCollectionViewKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +44,7 @@
 		90445CCD1E3314C30092EF88 = {
 			isa = PBXGroup;
 			children = (
+				D72A60C9272DCFA200EE99C7 /* config.xcconfig */,
 				90445CD81E3314C30092EF88 /* CPCollectionViewCircleLayoutDemo */,
 				90445CD71E3314C30092EF88 /* Products */,
 				CE47AD830F8FF54E3788ACC6 /* Frameworks */,
@@ -82,18 +87,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90445CE81E3314C30092EF88 /* Build configuration list for PBXNativeTarget "CPCollectionViewCircleLayoutDemo" */;
 			buildPhases = (
-				EEAAD92A70119996BE197BCB /* [CP] Check Pods Manifest.lock */,
 				90445CD21E3314C30092EF88 /* Sources */,
 				90445CD31E3314C30092EF88 /* Frameworks */,
 				90445CD41E3314C30092EF88 /* Resources */,
-				AF86EBD48EB98781AD9DC09A /* [CP] Embed Pods Frameworks */,
-				4518BB28D9191EFD77809C47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CPCollectionViewCircleLayoutDemo;
+			packageProductDependencies = (
+				D72A60C7272DCF6100EE99C7 /* CPCollectionViewKit */,
+			);
 			productName = CPCollectionViewCircleLayoutDemo;
 			productReference = 90445CD61E3314C30092EF88 /* CPCollectionViewCircleLayoutDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -139,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72A60CA272DCFA200EE99C7 /* config.xcconfig in Resources */,
 				90445CE41E3314C30092EF88 /* LaunchScreen.storyboard in Resources */,
 				90445CE11E3314C30092EF88 /* Assets.xcassets in Resources */,
 				90445CDF1E3314C30092EF88 /* Main.storyboard in Resources */,
@@ -146,54 +152,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4518BB28D9191EFD77809C47 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPCollectionViewCircleLayoutDemo/Pods-CPCollectionViewCircleLayoutDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AF86EBD48EB98781AD9DC09A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPCollectionViewCircleLayoutDemo/Pods-CPCollectionViewCircleLayoutDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EEAAD92A70119996BE197BCB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90445CD21E3314C30092EF88 /* Sources */ = {
@@ -230,6 +188,7 @@
 /* Begin XCBuildConfiguration section */
 		90445CE61E3314C30092EF88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60C9272DCFA200EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -274,11 +233,13 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		90445CE71E3314C30092EF88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60C9272DCFA200EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -314,34 +275,44 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		90445CE91E3314C30092EF88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60C9272DCFA200EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;
 				INFOPLIST_FILE = CPCollectionViewCircleLayoutDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Parsifal.CPCollectionViewCircleLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		90445CEA1E3314C30092EF88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60C9272DCFA200EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;
 				INFOPLIST_FILE = CPCollectionViewCircleLayoutDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Parsifal.CPCollectionViewCircleLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -367,6 +338,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D72A60C7272DCF6100EE99C7 /* CPCollectionViewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CPCollectionViewKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90445CCE1E3314C30092EF88 /* Project object */;
 }

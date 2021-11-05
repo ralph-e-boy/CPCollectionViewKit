@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		90232C401E54911A004EEA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90232C3F1E54911A004EEA5B /* Assets.xcassets */; };
 		90232C431E54911A004EEA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90232C411E54911A004EEA5B /* LaunchScreen.storyboard */; };
 		90232C4B1E549269004EEA5B /* CPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90232C4A1E549269004EEA5B /* CPCollectionViewCell.swift */; };
+		D72A60CC2735C66600EE99C7 /* CPCollectionViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = D72A60CB2735C66600EE99C7 /* CPCollectionViewKit */; };
+		D72A60CE2735C6D200EE99C7 /* config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D72A60CD2735C6D200EE99C7 /* config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		90232C421E54911A004EEA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90232C441E54911A004EEA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90232C4A1E549269004EEA5B /* CPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCollectionViewCell.swift; sourceTree = "<group>"; };
+		D72A60CD2735C6D200EE99C7 /* config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = config.xcconfig; path = ../../Config/config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72A60CC2735C66600EE99C7 /* CPCollectionViewKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +68,7 @@
 		90232C371E54911A004EEA5B /* CPCollectionViewTimeMachineLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D72A60CD2735C6D200EE99C7 /* config.xcconfig */,
 				90232C381E54911A004EEA5B /* AppDelegate.swift */,
 				90232C3A1E54911A004EEA5B /* ViewController.swift */,
 				90232C4A1E549269004EEA5B /* CPCollectionViewCell.swift */,
@@ -82,17 +87,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90232C471E54911A004EEA5B /* Build configuration list for PBXNativeTarget "CPCollectionViewTimeMachineLayoutDemo" */;
 			buildPhases = (
-				602E2BAB1B6C68A1E1D72719 /* [CP] Check Pods Manifest.lock */,
 				90232C311E54911A004EEA5B /* Sources */,
 				90232C321E54911A004EEA5B /* Frameworks */,
 				90232C331E54911A004EEA5B /* Resources */,
-				35C00E2CDB63C0854DDEFAB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CPCollectionViewTimeMachineLayoutDemo;
+			packageProductDependencies = (
+				D72A60CB2735C66600EE99C7 /* CPCollectionViewKit */,
+			);
 			productName = CPCollectionViewTimeMachineLayoutDemo;
 			productReference = 90232C351E54911A004EEA5B /* CPCollectionViewTimeMachineLayoutDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -138,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72A60CE2735C6D200EE99C7 /* config.xcconfig in Resources */,
 				90232C431E54911A004EEA5B /* LaunchScreen.storyboard in Resources */,
 				90232C401E54911A004EEA5B /* Assets.xcassets in Resources */,
 				90232C3E1E54911A004EEA5B /* Main.storyboard in Resources */,
@@ -145,45 +152,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		35C00E2CDB63C0854DDEFAB7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPCollectionViewTimeMachineLayoutDemo/Pods-CPCollectionViewTimeMachineLayoutDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CPCollectionViewKit/CPCollectionViewKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CPCollectionViewKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPCollectionViewTimeMachineLayoutDemo/Pods-CPCollectionViewTimeMachineLayoutDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		602E2BAB1B6C68A1E1D72719 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CPCollectionViewTimeMachineLayoutDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90232C311E54911A004EEA5B /* Sources */ = {
@@ -252,10 +220,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -266,7 +235,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPY54Z9HV5;
 				INFOPLIST_FILE = CPCollectionViewTimeMachineLayoutDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Parsifal.CPCollectionViewTimeMachineLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -293,6 +265,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D72A60CB2735C66600EE99C7 /* CPCollectionViewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CPCollectionViewKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90232C2D1E54911A004EEA5B /* Project object */;
 }

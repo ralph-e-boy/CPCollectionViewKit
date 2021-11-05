@@ -26,7 +26,7 @@ class ViewController: UIViewController {
             colorsArray.append(randomColor())
         }
         
-        timeMachineLayout = collectionView.collectionViewLayout as! CollectionViewTimeMachineLayout
+      timeMachineLayout = collectionView.collectionViewLayout as? CollectionViewTimeMachineLayout
         layoutConfiguration = timeMachineLayout.configuration
         layoutConfiguration.cellSize = CGSize(width: 250, height: 250)
         layoutConfiguration.visibleCount = 6

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,41 +13,11 @@
 		90445D211E333DCC0092EF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90445D201E333DCC0092EF88 /* Assets.xcassets */; };
 		90445D241E333DCC0092EF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90445D221E333DCC0092EF88 /* LaunchScreen.storyboard */; };
 		90445D2C1E3341970092EF88 /* CPColletionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90445D2B1E3341970092EF88 /* CPColletionViewCell.swift */; };
+		D72A60C6272DCEDB00EE99C7 /* CPCollectionViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = D72A60C5272DCEDB00EE99C7 /* CPCollectionViewKit */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D71ECB16272DB95600A580B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 90445CD61E3314C30092EF88;
-			remoteInfo = CPCollectionViewCircleLayoutDemo;
-		};
-		D71ECB1C272DB95900A580B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D71ECB18272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 90BC8FB31E57265F00C49A21;
-			remoteInfo = CPCollectionViewStageLayoutDemo;
-		};
-		D71ECB24272DB97500A580B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D71ECB20272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 90445CD61E3314C30092EF88;
-			remoteInfo = CPCollectionViewCircleLayoutDemo;
-		};
-		D71ECB34272DB9A200A580B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D71ECB2E272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 90445CD61E3314C30092EF88;
-			remoteInfo = CPCollectionViewCircleLayoutDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		90445D161E333DCC0092EF88 /* CPCollectionViewCaterpillarLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPCollectionViewCaterpillarLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90445D161E333DCC0092EF88 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90445D191E333DCC0092EF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90445D1B1E333DCC0092EF88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90445D1E1E333DCC0092EF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,11 +25,8 @@
 		90445D231E333DCC0092EF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90445D251E333DCC0092EF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90445D2B1E3341970092EF88 /* CPColletionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPColletionViewCell.swift; sourceTree = "<group>"; };
-		D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewCircleLayoutDemo.xcodeproj; path = ../CPCollectionViewCircleLayoutDemo/CPCollectionViewCircleLayoutDemo.xcodeproj; sourceTree = "<group>"; };
-		D71ECB18272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewStageLayoutDemo.xcodeproj; path = ../CPCollectionViewStageLayoutDemo/CPCollectionViewStageLayoutDemo.xcodeproj; sourceTree = "<group>"; };
-		D71ECB20272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewCircleLayoutDemo.xcodeproj; path = ../CPCollectionViewCircleLayoutDemo/CPCollectionViewCircleLayoutDemo.xcodeproj; sourceTree = "<group>"; };
-		D71ECB2E272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CPCollectionViewCircleLayoutDemo.xcodeproj; path = ../CPCollectionViewCircleLayoutDemo/CPCollectionViewCircleLayoutDemo.xcodeproj; sourceTree = "<group>"; };
 		D71ECB3E272DBC9D00A580B6 /* CPCollectionViewKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CPCollectionViewKit; path = ../..; sourceTree = "<group>"; };
+		D72A60C3272DCE9700EE99C7 /* config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = config.xcconfig; path = ../Config/config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72A60C6272DCEDB00EE99C7 /* CPCollectionViewKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,11 +51,8 @@
 		90445D0D1E333DCC0092EF88 = {
 			isa = PBXGroup;
 			children = (
+				D72A60C3272DCE9700EE99C7 /* config.xcconfig */,
 				D71ECB3D272DBC9D00A580B6 /* Packages */,
-				D71ECB20272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */,
-				D71ECB2E272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */,
-				D71ECB18272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.xcodeproj */,
-				D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */,
 				90445D181E333DCC0092EF88 /* CPCollectionViewCaterpillarLayoutDemo */,
 				90445D171E333DCC0092EF88 /* Products */,
 				246136FF135C6C440EC78F24 /* Frameworks */,
@@ -97,7 +62,7 @@
 		90445D171E333DCC0092EF88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90445D161E333DCC0092EF88 /* CPCollectionViewCaterpillarLayoutDemo.app */,
+				90445D161E333DCC0092EF88 /* .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,38 +81,6 @@
 			path = CPCollectionViewCaterpillarLayoutDemo;
 			sourceTree = "<group>";
 		};
-		D71ECB13272DB95600A580B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D71ECB17272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D71ECB19272DB95900A580B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D71ECB1D272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D71ECB21272DB97500A580B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D71ECB25272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D71ECB2F272DB9A200A580B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D71ECB35272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D71ECB3D272DBC9D00A580B6 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,20 +96,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90445D281E333DCC0092EF88 /* Build configuration list for PBXNativeTarget "CPCollectionViewCaterpillarLayoutDemo" */;
 			buildPhases = (
-				F971B57001D8DA20C8209CA2 /* [CP] Check Pods Manifest.lock */,
 				90445D121E333DCC0092EF88 /* Sources */,
 				90445D131E333DCC0092EF88 /* Frameworks */,
 				90445D141E333DCC0092EF88 /* Resources */,
-				2158FB82ABB24B8EA041031B /* [CP] Embed Pods Frameworks */,
-				56633082E74E364FCCC09FA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CPCollectionViewCaterpillarLayoutDemo;
+			packageProductDependencies = (
+				D72A60C5272DCEDB00EE99C7 /* CPCollectionViewKit */,
+			);
 			productName = CPCollectionViewCaterpillarLayoutDemo;
-			productReference = 90445D161E333DCC0092EF88 /* CPCollectionViewCaterpillarLayoutDemo.app */;
+			productReference = 90445D161E333DCC0092EF88 /* .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -208,61 +141,12 @@
 			mainGroup = 90445D0D1E333DCC0092EF88;
 			productRefGroup = 90445D171E333DCC0092EF88 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D71ECB21272DB97500A580B6 /* Products */;
-					ProjectRef = D71ECB20272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
-				},
-				{
-					ProductGroup = D71ECB13272DB95600A580B6 /* Products */;
-					ProjectRef = D71ECB12272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
-				},
-				{
-					ProductGroup = D71ECB2F272DB9A200A580B6 /* Products */;
-					ProjectRef = D71ECB2E272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.xcodeproj */;
-				},
-				{
-					ProductGroup = D71ECB19272DB95900A580B6 /* Products */;
-					ProjectRef = D71ECB18272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				90445D151E333DCC0092EF88 /* CPCollectionViewCaterpillarLayoutDemo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		D71ECB17272DB95600A580B6 /* CPCollectionViewCircleLayoutDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CPCollectionViewCircleLayoutDemo.app;
-			remoteRef = D71ECB16272DB95600A580B6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D71ECB1D272DB95900A580B6 /* CPCollectionViewStageLayoutDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CPCollectionViewStageLayoutDemo.app;
-			remoteRef = D71ECB1C272DB95900A580B6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D71ECB25272DB97500A580B6 /* CPCollectionViewCircleLayoutDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CPCollectionViewCircleLayoutDemo.app;
-			remoteRef = D71ECB24272DB97500A580B6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D71ECB35272DB9A200A580B6 /* CPCollectionViewCircleLayoutDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CPCollectionViewCircleLayoutDemo.app;
-			remoteRef = D71ECB34272DB9A200A580B6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		90445D141E333DCC0092EF88 /* Resources */ = {
@@ -276,54 +160,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2158FB82ABB24B8EA041031B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPCollectionViewCaterpillarLayoutDemo/Pods-CPCollectionViewCaterpillarLayoutDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		56633082E74E364FCCC09FA9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPCollectionViewCaterpillarLayoutDemo/Pods-CPCollectionViewCaterpillarLayoutDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F971B57001D8DA20C8209CA2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90445D121E333DCC0092EF88 /* Sources */ = {
@@ -360,6 +196,7 @@
 /* Begin XCBuildConfiguration section */
 		90445D261E333DCC0092EF88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60C3272DCE9700EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -398,7 +235,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -409,6 +245,7 @@
 		};
 		90445D271E333DCC0092EF88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60C3272DCE9700EE99C7 /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -441,37 +278,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		90445D291E333DCC0092EF88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60C3272DCE9700EE99C7 /* config.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QPY54Z9HV5;
-				INFOPLIST_FILE = CPCollectionViewCaterpillarLayoutDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Parsifal.CPCollectionViewCaterpillarLayoutDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		90445D2A1E333DCC0092EF88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72A60C3272DCE9700EE99C7 /* config.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QPY54Z9HV5;
-				INFOPLIST_FILE = CPCollectionViewCaterpillarLayoutDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Parsifal.CPCollectionViewCaterpillarLayoutDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -497,6 +322,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D72A60C5272DCEDB00EE99C7 /* CPCollectionViewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CPCollectionViewKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90445D0E1E333DCC0092EF88 /* Project object */;
 }

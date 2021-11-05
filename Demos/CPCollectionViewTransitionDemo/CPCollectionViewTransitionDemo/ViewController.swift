@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         pickerViewDataSource = ["UICollectionViewFlowLayout", "CollectionViewStageLayout", "CollectionViewTimeMachineLayout", "CollectionViewCircleLayout"]
     }
 
-    func done() {
+  @objc func done() {
         showPickerView(false)
         
         if selectedCellIndex == 0 {
@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         tableView.reloadData()
     }
     
-    func cancel() {
+  @objc func cancel() {
         showPickerView(false)
         tableView.reloadData()
     }

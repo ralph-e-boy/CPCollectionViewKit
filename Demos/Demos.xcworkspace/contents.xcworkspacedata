@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:"
+      name = "Config">
+      <FileRef
+         location = "group:Config/config.xcconfig">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:CPCollectionViewCardLayoutDemo/CPCollectionViewCardLayoutDemo.xcodeproj">
    </FileRef>

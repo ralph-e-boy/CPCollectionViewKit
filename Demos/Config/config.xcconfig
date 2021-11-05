@@ -1,0 +1,51 @@
+
+
+//:configuration = Debug
+SDKROOT = iphoneos
+
+//:configuration = Release
+SDKROOT = iphoneos
+
+//:completeSettings = some
+SDKROOT = iphoneos
+
+//:configuration = Debug
+IPHONEOS_DEPLOYMENT_TARGET = 13.0
+
+//:configuration = Release
+IPHONEOS_DEPLOYMENT_TARGET = 13.0
+
+//:completeSettings = some
+IPHONEOS_DEPLOYMENT_TARGET = 13.0
+
+
+//:configuration = Debug
+ONLY_ACTIVE_ARCH = YES
+
+//:configuration = Release
+ONLY_ACTIVE_ARCH = YES
+
+//:completeSettings = some
+ONLY_ACTIVE_ARCH = YES
+
+
+//:configuration = Debug
+TARGETED_DEVICE_FAMILY = 1
+
+//:configuration = Release
+TARGETED_DEVICE_FAMILY = 1
+
+//:completeSettings = some
+TARGETED_DEVICE_FAMILY = 1
+
+
+//:configuration = Debug
+SWIFT_VERSION = 5.0
+
+//:configuration = Release
+SWIFT_VERSION = 5.0
+
+//:completeSettings = some
+SWIFT_VERSION = 5.0
+
+

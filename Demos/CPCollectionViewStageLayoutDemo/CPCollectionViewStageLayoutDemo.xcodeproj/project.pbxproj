@@ -82,12 +82,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90BC8FC51E57265F00C49A21 /* Build configuration list for PBXNativeTarget "CPCollectionViewStageLayoutDemo" */;
 			buildPhases = (
-				78E62C0DD91EA326A6C27651 /* [CP] Check Pods Manifest.lock */,
 				90BC8FAF1E57265F00C49A21 /* Sources */,
 				90BC8FB01E57265F00C49A21 /* Frameworks */,
 				90BC8FB11E57265F00C49A21 /* Resources */,
-				85464780069D22A0A9932B6A /* [CP] Embed Pods Frameworks */,
-				317A345395885A68B3CEBF19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,54 +143,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		317A345395885A68B3CEBF19 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPCollectionViewStageLayoutDemo/Pods-CPCollectionViewStageLayoutDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		78E62C0DD91EA326A6C27651 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		85464780069D22A0A9932B6A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPCollectionViewStageLayoutDemo/Pods-CPCollectionViewStageLayoutDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90BC8FAF1E57265F00C49A21 /* Sources */ = {

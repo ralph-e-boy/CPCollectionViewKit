@@ -25,7 +25,7 @@
 		901AA5851E5193E800B12889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		901AA5871E5193E800B12889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		901AA58D1E51950000B12889 /* CPCardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPCardCollectionViewCell.swift; sourceTree = "<group>"; };
-		D72A60B9272DC80F00EE99C7 /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = config.xcconfig; path = /Users/ralphseaman/code/CPCollectionViewKit/Demos/CPCollectionViewCardLayoutDemo/CPCollectionViewCardLayoutDemo/config.xcconfig; sourceTree = "<absolute>"; };
+		D72A60B9272DC80F00EE99C7 /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = config.xcconfig; path = /Users/ralphseaman/code/CPCollectionViewKit/Demos/Config/config.xcconfig; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
